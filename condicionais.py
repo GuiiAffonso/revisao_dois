@@ -10,12 +10,23 @@
 # verificar_maioridade()
 
 # Questão 7:
-def verificar_par_ou_impar():
-    numero = int(input("Digite um nº: "))
+# def verificar_par_ou_impar():
+#     numero = int(input("Digite um nº: "))
 
-    if (numero % 2 == 0):
-        print("Este é um nº par.")
+#     if (numero % 2 == 0):
+#         print("Este é um nº par.")
+#     else:
+#         print("Este é um nº ímpar.")
+
+# verificar_par_ou_impar()
+
+# Questão 8:
+def verificar_aprovacao():
+    numero = int(input("Digite a sua nota: "))
+
+    if (numero >= 7):
+        print("Aprovado.")
     else:
-        print("Este é um nº ímpar.")
+        print("Reprovado.")
 
-verificar_par_ou_impar()
+verificar_aprovacao()
