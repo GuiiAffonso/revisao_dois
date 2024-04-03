@@ -34,6 +34,6 @@ def calcular_imc():
     altura = float(input("Digite sua altura: "))
     peso = float(input("Digite o seu peso: "))
     calcula_imc = peso / (altura*altura)
-    print(f'O seu IMC é: {calcula_imc})
+    print(f'O seu IMC é: {calcula_imc}')
 
 calcular_imc()
